@@ -8,18 +8,17 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the standard Libraries.
+Import Libraries: Import the necessary libraries such as pandas, numpy, matplotlib, and sklearn.
 
-2.Set variables for assigning dataset values.
+Load Data: Read the CSV file containing the dataset and display its contents.
 
-3.Import linear regression from sklearn.
+Prepare Data: Segregate the data into independent (X) and dependent (Y) variables.
 
-4.Assign the points for representing in the graph.
+Split Data: Split the dataset into training and testing sets using train_test_split.
 
-5.Predict the regression for marks by using the representation of the graph.
+Train Model: Import the Linear Regression model from sklearn, fit the model with the training data, and make predictions on the test data.
 
-6.Compare the graphs and hence we obtained the linear regression for the given datas.
-
+Evaluate Model: Display the predicted and actual values, plot the training and test data, and calculate the mean absolute error (MAE), mean squared error (MSE), and root mean squared error (RMSE)
 ## Program:
 ```
 /*
