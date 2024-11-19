@@ -77,20 +77,37 @@ mse=mean_squared_error(y_test,y_pred)
 mse
 rmse=np.sqrt(mse)
 rmse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 ## Output:
 
 ### HEAD VALUES
 ![Screenshot 2024-09-04 221358](https://github.com/user-attachments/assets/fbda0ea9-ed7d-467d-a43b-8f331d462023)
-### X VALUES
-![Screenshot 2024-09-04 221417](https://github.com/user-attachments/assets/a9e9dbd6-635a-48e3-8071-cd2a81c55147)
+
 ### Y_PRED AND Y_TEST VALUES
 ![Screenshot 2024-09-04 221437](https://github.com/user-attachments/assets/5676a893-dcaf-4457-aefa-3ab8dbe9e199)
+
 ### TRAINING DATA GRAPH
 ![Screenshot 2024-09-04 221450](https://github.com/user-attachments/assets/0fd7830c-e389-45d0-972f-de148785960b)
+
 ### TESTING DATA GRAPH
 ![Screenshot 2024-09-04 221500](https://github.com/user-attachments/assets/b601a081-16fa-4378-8895-615ab4077b0a)
+
 ### ERROR VALUES
 ![Screenshot 2024-09-04 221509](https://github.com/user-attachments/assets/ed4a97c9-83ca-4f71-b519-9e40b426f98b)
 
